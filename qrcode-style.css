@@ -9,6 +9,8 @@
   --25px: 1.5625rem;
   --40px: 2.5rem;
   --288px: 18rem;
+  --font-weight-bold: 700;
+  --font-weight-light: 300;
 }
 
 html {
@@ -21,8 +23,8 @@ body {
 
 .parent-container {
     display: flex;
-    margin-left: inline-start;
-    margin-bottom: inline-start;
+    margin-left: auto;
+    margin-bottom: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -51,7 +53,7 @@ body {
 .content h1 {
     color: var(--content-header-fontcolor);
     font-size: 1.375rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -60,7 +62,7 @@ body {
 .content p {
     color: var(--content-text-fontcolor);
     font-size: 0.9375rem;
-    font-weight: 300;
+    font-weight: var(--font-weight-light);
     text-align: center;
 }
 
