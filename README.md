@@ -40,7 +40,6 @@ After learning just enough about HTML and CSS to dip my toe into the challenge, 
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow 
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
