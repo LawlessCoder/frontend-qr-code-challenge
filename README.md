@@ -25,8 +25,8 @@ This is my submission for the first project in my Frontend Mentor journey. A maj
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-challenge-using-flexbox-and-mobile-first-design-3Q68jK3St3)
+- Live Site URL: [Add live site URL here](https://lawlesscoder.github.io/frontend-qr-code-challenge/)
 
 ## My process
 
