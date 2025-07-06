@@ -43,8 +43,9 @@ main {
 
 .content img {
     border-radius: 0.625em;
-    width: var(--288px);
-    height: var(--288px);
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .content h1 {
