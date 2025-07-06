@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: hsl(212, 45%, 89%);
   --content-bg-color: hsl(0, 0%, 100%);
+  --content-boxshadow-color: hsl(0, 0%, 0%, 4.77%);
   --content-header-fontcolor: hsl(218, 44%, 22%);
   --content-text-fontcolor: hsl(216, 15%, 48%);
   --16px: 1rem;
@@ -33,7 +34,7 @@ body {
 
 .content {
     background-color: var(--content-bg-color);
-    box-shadow: 0 var(--25px) var(--25px) hsl(0, 0%, 0%, 4.77%);
+    box-shadow: 0 var(--25px) var(--25px) var(--content-boxshadow-color);
     display: flex;
     flex-direction: column;
     border-radius: var(--20px);
