@@ -34,10 +34,7 @@ main {
     background-color: var(--content-bg-color);
     box-shadow: 0 var(--25px) var(--25px) var(--content-boxshadow-color);
     border-radius: var(--20px);
-    padding-top: var(--16px);
-    padding-left: var(--16px);
-    padding-right: var(--16px);
-    padding-bottom: var(--40px);
+    padding: var(--16px) var(--16px) var(--40px) var(--16px);
     display: flex;
     flex-direction: column;
     align-items: center;
