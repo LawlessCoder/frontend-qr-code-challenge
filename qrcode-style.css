@@ -1,40 +1,55 @@
+html {
+    font-family: Outfit, arial;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
 }
 
-.container {
+.parent-container {
     display: flex;
+    margin-left: auto;
+    margin-bottom: auto;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .content {
-    display: flex;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 25px;
+    box-shadow: 0 1.5625rem 1.5625rem hsl(0, 0%, 0%, 4.77%);
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    /* box-shadow: 1em 1em 1em hsl(212, 45%, 89%); */
+    border-radius: 1.25rem;
     align-items: center;
-    font-family: Outfit, arial;
-    padding-bottom: 40px;
-    margin-bottom: 15px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .content img {
-    margin: 25px;
-    border-radius: 25px;
-    width: 500px;
+    border-radius: 0.625em;
+    width: 18rem;
+    height: 18rem;
 }
 
 .content h1 {
     color: hsl(218, 44%, 22%);
+    font-size: 1.375rem;
+    font-weight: 700;
     text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .content p {
     color: hsl(216, 15%, 48%);
-    font-size: 15px;
+    font-size: 1.06 rem;
+    font-weight: 300;
     text-align: center;
 }
 
