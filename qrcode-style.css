@@ -1,15 +1,28 @@
+:root {
+  --main-bg-color: hsl(212, 45%, 89%);
+  --content-bg-color: hsl(0, 0%, 100%);
+  --content-header-fontcolor: hsl(218, 44%, 22%);
+  --content-text-fontcolor: hsl(216, 15%, 48%);
+  --16px: 1rem;
+  --18px: 1.125rem;
+  --20px: 1.25rem;
+  --25px: 1.5625rem;
+  --40px: 2.5rem;
+  --288px: 18rem;
+}
+
 html {
-    font-family: Outfit, arial;
+    font-family: Outfit, sans-serif;
 }
 
 body {
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--main-bg-color);
 }
 
 .parent-container {
     display: flex;
-    margin-left: auto;
-    margin-bottom: auto;
+    margin-left: inline-start;
+    margin-bottom: inline-start;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,36 +30,36 @@ body {
 }
 
 .content {
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 0 1.5625rem 1.5625rem hsl(0, 0%, 0%, 4.77%);
+    background-color: var(--content-bg-color);
+    box-shadow: 0 var(--25px) var(--25px) hsl(0, 0%, 0%, 4.77%);
     display: flex;
     flex-direction: column;
-    border-radius: 1.25rem;
+    border-radius: var(--20px);
     align-items: center;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 2.5rem;
+    padding-top: var(--16px);
+    padding-left: var(--16px);
+    padding-right: var(--16px);
+    padding-bottom: var(--40px);
 }
 
 .content img {
     border-radius: 0.625em;
-    width: 18rem;
-    height: 18rem;
+    width: var(--288px);
+    height: var(--288px);
 }
 
 .content h1 {
-    color: hsl(218, 44%, 22%);
+    color: var(--content-header-fontcolor);
     font-size: 1.375rem;
     font-weight: 700;
     text-align: center;
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .content p {
-    color: hsl(216, 15%, 48%);
-    font-size: 1.06 rem;
+    color: var(--content-text-fontcolor);
+    font-size: 0.9375rem;
     font-weight: 300;
     text-align: center;
 }
