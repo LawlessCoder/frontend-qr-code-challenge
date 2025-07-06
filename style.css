@@ -33,14 +33,15 @@ main {
 .content {
     background-color: var(--content-bg-color);
     box-shadow: 0 var(--25px) var(--25px) var(--content-boxshadow-color);
-    display: flex;
-    flex-direction: column;
     border-radius: var(--20px);
-    align-items: center;
     padding-top: var(--16px);
     padding-left: var(--16px);
     padding-right: var(--16px);
     padding-bottom: var(--40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: var(--288px);
 }
 
 .content img {
@@ -50,15 +51,16 @@ main {
 }
 
 .content h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     color: var(--content-header-fontcolor);
     font-size: 1.375rem;
     font-weight: var(--font-weight-bold);
     text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
 .content p {
+    max-width: 16rem;
     color: var(--content-text-fontcolor);
     font-size: 0.9375rem;
     font-weight: var(--font-weight-light);
