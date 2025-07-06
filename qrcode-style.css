@@ -21,8 +21,6 @@ body {
     box-shadow: 0 1.5625rem 1.5625rem hsl(0, 0%, 0%, 4.77%);
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* box-shadow: 1em 1em 1em hsl(212, 45%, 89%); */
     border-radius: 1.25rem;
     align-items: center;
     padding-top: 1rem;
