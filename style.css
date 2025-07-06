@@ -22,7 +22,7 @@ body {
     background-color: var(--main-bg-color);
 }
 
-.parent-container {
+main {
     display: flex;
     margin-inline-start: auto;
     margin-inline-end: auto;
